@@ -11,4 +11,4 @@ function calculateEMI() {
     var resultElement = document.getElementById("result");
     resultElement.innerHTML = "Your Monthly EMI: ₹" + emi.toFixed(2);
 }
-￼Enter
+
