@@ -9,6 +9,6 @@ function calculateEMI() {
     var emi = (principal * monthlyInterest * Math.pow(1 + monthlyInterest, totalPayments)) / (Math.pow(1 + monthlyInterest, totalPayments) - 1);
 
     var resultElement = document.getElementById("result");
-    resultElement.innerHTML = "Your Monthly EMI: $" + emi.toFixed(2);
+    resultElement.innerHTML = "Your Monthly EMI: ₹" + emi.toFixed(2);
 }
 ￼Enter
